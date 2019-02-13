@@ -14,13 +14,20 @@ class Main
     public static void main(String args[]) 
     { 
         double arr[] = {10.0, 7.1, 8.6, 9.9, 1.8, 5.0}; 
-        System.out.println("original array"); 
+        System.out.println("original array: "); 
         System.out.println(Arrays.toString(arr));
         
+        // create a sorted version to test.
+        double sortedArr = arr;
+        Arrays.sort(sortedArr);
+        System.out.println("sorted array: "); 
+        System.out.println(Arrays.toString(sortedArr));
+        
+       
         Main sorter = new Main(); // create a sorter object
         sorter.sort(arr, 0, arr.length); // call the sort function
   
-        System.out.println("sorted array"); 
+        System.out.println("*** your sorted array: "); 
         System.out.println(Arrays.toString(arr));
     } 
 } 
