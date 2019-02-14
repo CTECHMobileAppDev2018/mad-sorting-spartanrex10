@@ -69,7 +69,7 @@ class Main
     // Test program 
     public static void main(String args[]) 
     { 
-        double arr[] = {10.0, 7.1, 8.6, 9.9, 1.8, 5.0}; 
+        double arr[] = {10.0, 7.1, 8.6, 9.9, 1.8, 5.0, 20.0, 53.6, 22.5, 14.3, 11.0, 17.6, 88.0, 22.8, 31.7, 52.6}; 
         System.out.println("original array: "); 
         System.out.println(Arrays.toString(arr));
         
